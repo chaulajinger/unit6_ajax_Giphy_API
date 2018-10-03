@@ -47,7 +47,7 @@ $(document).ready(function () {
   function displayGifs() {
     var fashion = $(this).attr("data-name");
     //javascript, jQuery
-    var queryURL = ("http://api.giphy.com/v1/gifs/search?q=" + fashion + "&api_key=OJsLijOQVdUc5Ukk05e21GkWhiiyoFH5&limit=10");
+    var queryURL = ("https://api.giphy.com/v1/gifs/search?q=" + fashion + "&api_key=OJsLijOQVdUc5Ukk05e21GkWhiiyoFH5&limit=10");
 
 
     $.ajax({
